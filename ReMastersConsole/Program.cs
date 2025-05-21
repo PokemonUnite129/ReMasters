@@ -15,11 +15,13 @@ namespace ReMastersConsole
 
             var paths = new GameDataPaths
             {
-                UnpackedAPKPath = @"E:\masters-inv\2.9.0\apk",
-                DownloadPath = @"E:\masters-inv\2.9.0\downloaded-resource-dir",
-                ShardPath = @"E:\masters-inv\2.9.0\downloaded-resource-dir\assetdb_shard",
+                // Default locations for a typical workflow. Adjust these
+                // if your files live elsewhere.
+                UnpackedAPKPath = @"E:\ReallyNeedHelp\PkmMaster\MastersEX",
+                DownloadPath = @"E:\ReallyNeedHelp\PkmMaster\Datamine256\Datamine",
+                ShardPath = @"E:\ReallyNeedHelp\PkmMaster\Datamine256\Datamine\assetdb_shard",
 
-                OutputPath = @"E:\masters-inv\2.9.0\dump",
+                OutputPath = @"E:\ReallyNeedHelp\PkmMaster\Datamine25600",
             };
 
             var settings = new DumpSettings(paths)
