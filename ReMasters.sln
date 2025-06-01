@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReMastersLib", "ReMastersLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReMastersTest", "ReMastersTest\ReMastersTest.csproj", "{6848DE12-E5F2-4B96-9AA9-147DF60A70D6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyNumberConsole", "HappyNumberConsole\HappyNumberConsole.csproj", "{ED45827F-3A3A-4A97-A536-AAC83A3D2A4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,10 +26,14 @@ Global
 		{E8B53258-33D1-4BFB-8F38-4EF9C69101A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B53258-33D1-4BFB-8F38-4EF9C69101A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+                {6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {6848DE12-E5F2-4B96-9AA9-147DF60A70D6}.Release|Any CPU.Build.0 = Release|Any CPU
+                {ED45827F-3A3A-4A97-A536-AAC83A3D2A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {ED45827F-3A3A-4A97-A536-AAC83A3D2A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {ED45827F-3A3A-4A97-A536-AAC83A3D2A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {ED45827F-3A3A-4A97-A536-AAC83A3D2A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+        EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
